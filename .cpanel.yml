@@ -2,7 +2,24 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/stalbansurc/public_html/
-    - /bin/cp -f *.html $DEPLOYPATH
-    - /bin/cp -f *.pdf $DEPLOYPATH
-    - /bin/cp -f *.js $DEPLOYPATH
-    - /bin/cp -f *.php $DEPLOYPATH
+    - /bin/cp -f blog-post.html $DEPLOYPATH
+    - /bin/cp -f blog.html $DEPLOYPATH
+    - /bin/cp -f calendar.html $DEPLOYPATH
+    - /bin/cp -f church-groups-greenwood.html $DEPLOYPATH
+    - /bin/cp -f church-groups-homewood.html $DEPLOYPATH
+    - /bin/cp -f community-groups-greenwood.html $DEPLOYPATH
+    - /bin/cp -f community-groups-homewood.html $DEPLOYPATH
+    - /bin/cp -f contact.html $DEPLOYPATH
+    - /bin/cp -f eco-church.html $DEPLOYPATH
+    - /bin/cp -f faith-action.html $DEPLOYPATH
+    - /bin/cp -f hall-hire-greenwood.html $DEPLOYPATH
+    - /bin/cp -f hall-hire-homewood.html $DEPLOYPATH
+    - /bin/cp -f index.html $DEPLOYPATH
+    - /bin/cp -f newsletter.html $DEPLOYPATH
+    - /bin/cp -f policies.html $DEPLOYPATH
+    - /bin/cp -f services.html $DEPLOYPATH
+    - /bin/cp -f united-voices-magazine.html $DEPLOYPATH
+    - /bin/cp -f youth-and-families.html $DEPLOYPATH
+    - /bin/cp -f Social_Media_Policy.pdf $DEPLOYPATH
+    - /bin/cp -f news.js $DEPLOYPATH
+    - /bin/cp -f posts-feed.php $DEPLOYPATH
