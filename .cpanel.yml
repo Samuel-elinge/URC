@@ -1,0 +1,8 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/stalbansurc/public_html/
+    - /bin/cp -f *.html $DEPLOYPATH
+    - /bin/cp -f *.pdf $DEPLOYPATH
+    - /bin/cp -f *.js $DEPLOYPATH
+    - /bin/cp -f *.php $DEPLOYPATH
